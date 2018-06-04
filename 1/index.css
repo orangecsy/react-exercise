@@ -1,0 +1,43 @@
+
+.matrix {
+  float: left;
+  width: 150px;
+}
+
+.info {
+  float: left;
+  margin-left: 10px;
+  font-size: 24px;
+}
+
+.block-row {
+  width: 150px;
+  height: 50px;
+  margin-bottom: -1px;
+}
+
+.block {
+  /* 清除浮动 */
+  float: left;
+  background-color: #fff;
+  border: 1px solid #999;
+  width: 50px;
+  height: 100%;
+  line-height: 100%;
+  margin-left: -1px;
+  margin-top: -1px;
+  font-size: 32px;
+}
+
+.block:focus {
+  outline: none;
+}
+
+.info-button {
+  display: block;
+  height: 40px;
+  font-size: 20px;
+  background-color: #fff;
+  border: 1px solid #999;
+  margin-top: 10px;
+}
